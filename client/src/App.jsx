@@ -1,17 +1,35 @@
-import { Routes, Route } from "react-router-dom";
-import Landing from './pages/Landing'
-import Dashboard from './pages/Dashboard'
-import ChallengeDay from './pages/ChallengeDay'
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Landing from "./pages/Landing";
+import Dashboard from "./pages/Dashboard";
+import ChallengeDay from "./pages/ChallengeDay";
 
-const App = () => {
-
+function App() {
   return (
-    <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/day/12" element={<ChallengeDay />} />
-    </Routes>
-  )
+
+      <Routes>
+
+        <Route
+          path="/"
+          element={<Landing />}
+        />
+
+        <Route
+          path="/dashboard"
+          element={<Dashboard />}
+        />
+
+        <Route
+          path="/day/12"
+          element={<ChallengeDay />}
+        />
+
+      </Routes>
+
+  );
 }
 
-export default App
+export default App;
