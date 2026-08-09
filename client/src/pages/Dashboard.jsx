@@ -404,10 +404,10 @@ function Dashboard() {
           </p>
 
           <Link
-            to="/day/12"
+            to="/day/1"
             className="mt-6 inline-flex items-center rounded-2xl bg-white px-5 py-3.5 text-sm font-bold text-[#111]"
           >
-            Continue Day 12 →
+            Continue Day 1 →
           </Link>
 
         </section>

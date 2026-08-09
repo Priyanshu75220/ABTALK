@@ -11,7 +11,6 @@ import Navbar from "../components/Navbar";
 import Step from "../components/Step";
 import Proof from "../components/Proof";
 import Track from "../components/Track";
-
 function Landing() {
   return (
     <div className="min-h-screen bg-[#F7F7F5] text-[#111]">
